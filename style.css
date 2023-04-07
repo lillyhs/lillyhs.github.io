@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(236, 155, 150);
+    font-family: Comic Sans MS;
+}
+
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+#ss {
+    font-size: large;
+    color: black;
+}
+
+.pp {
+    font-size: x-large;
+    font-style: italic;
+    text-shadow: 3px 3px 5px red;
+}
+
+footer{
+    font-size: large;
+    font-style: italic;
+}
